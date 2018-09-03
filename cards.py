@@ -5,4 +5,4 @@ print (foo)
 cards = foo.split(',')
 for i in range(0,len(cards)):
     if (cards[i].isdigit()):
-        print("het werkt")
+        cards[i] = int(cards[i])
